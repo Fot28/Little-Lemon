@@ -115,6 +115,11 @@ footer div {
 }
 
 footer img {
-	width: 15%;
+	width: 12%;
 	height: auto;
+}
+
+div > p {
+	border-top: 2px solid black;
+	text-align: end;
 }
