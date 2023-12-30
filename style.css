@@ -18,7 +18,6 @@ h2 {
 
 header > img {
 	width: 60%;
-	height: auto;
 	display: block;
 	margin: 0 auto 0 auto;
 }
@@ -34,10 +33,30 @@ nav li {
 
 section {
 	display: flex;
+	padding: 10px;
 }
 
 article {
- flex: 1;
+	flex: 1;
+	border-radius: 20px;
+}
+
+.promotion {
+	background-image: url(./assets/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+article > img {
+	width: 90%;
+	display: block;
+}
+
+.card {
+	border: 5px solid black;
+	width: 90%;
+	background-color: bisque;
 }
 
 footer {
@@ -48,7 +67,7 @@ footer div {
 	flex: 1;
 }
 
-footer img{
+footer img {
 	width: 15%;
 	height: auto;
 }
